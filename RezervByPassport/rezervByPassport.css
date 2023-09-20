@@ -135,3 +135,80 @@ legend {
     margin: 0 auto;
 }
 
+
+/* ! Tile */
+
+.title-container {
+    text-align: center;
+    margin: 40px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-text {
+    margin: 15px;
+}
+
+
+/* Fields */
+
+.login__form {
+    width: 47%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fields {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+
+
+.text-field__input {
+    border: 1px solid #bdb8b8;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+/* !Buttons */
+
+.button_field {
+    
+}
+
+.login__button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bf__bt {
+    background-color: #bdb8b8;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition-property: all;
+    transition-duration: .3s;
+}
+
+.bf__bt:hover {
+    background-color: #c9f5e4;
+}
